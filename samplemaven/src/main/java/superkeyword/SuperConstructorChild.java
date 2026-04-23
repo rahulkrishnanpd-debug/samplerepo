@@ -1,0 +1,17 @@
+package superkeyword;
+
+public class SuperConstructorChild extends SuperConstructorParent {
+	public SuperConstructorChild()
+	{
+		super(5,3);
+		System.out.println("This is SuperConstructorChild");
+	}
+
+	public static void main(String[] args) {
+		SuperConstructorChild obj=new SuperConstructorChild();
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
